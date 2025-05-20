@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Literary Haven | FAQ</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/faq.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <script src="js/common.js" defer></script>
+  <script src="js/faq.js" defer></script>
+</head>
+<body>
+  <header id="main-header">
+    <div class="container header-container">
+      <div class="logo">
+        <a href="index.html"><img src="https://www.counter-print.co.uk/cdn/shop/files/01_af2b2969-2d3e-48ac-8b8d-d9a4a725d809.jpg?v=1731060232" alt="">
+          <h1>Literary Haven</h1></a>
+      </div>
+      <nav class="main-nav">
+        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="faq.html" class="active">FAQ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- FAQ Hero Section -->
+    <section class="faq-hero">
+      <div class="container">
+        <div class="faq-hero-content">
+          <h1>Frequently Asked Questions</h1>
+          <p>Find answers to common questions about Literary Haven</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Content Section -->
+    <section class="faq-content">
+      <div class="container">
+        <div class="faq-search">
+          <input type="text" id="faq-search-input" placeholder="Search for questions...">
+        </div>
+        
+        <div class="faq-categories">
+          <button class="faq-category active" data-category="all">All Questions</button>
+          <button class="faq-category" data-category="general">General</button>
+          <button class="faq-category" data-category="orders">Orders & Shipping</button>
+          <button class="faq-category" data-category="events">Events & Programs</button>
+          <button class="faq-category" data-category="membership">Membership</button>
+        </div>
+        
+        <div class="faq-items">
+          <div class="faq-item" data-category="general">
+            <div class="faq-question">
+              <h3>What are Literary Haven's hours of operation?</h3>
+              <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Our store is open Monday through Friday from 9am to 8pm, Saturday from 10am to 7pm, and Sunday from 11am to 5pm. We're closed on major holidays, but always announce special hours on our social media channels and website.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item" data-category="general">
+            <div class="faq-question">
+              <h3>Do you have parking available?</h3>
+              <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Yes, we offer free customer parking in the lot behind our building. There's also street parking available, and we're just a short walk from the Literary District public parking garage.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item" data-category="orders">
+            <div class="faq-question">
+              <h3>Can you order a book that's not in your inventory?</h3>
+              <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Absolutely! We're happy to special order any in-print book. Most orders arrive within 3-5 business days, and we'll contact you as soon as your book arrives. There's no additional fee for this service. For out-of-print or rare books, please speak with our Rare Books Specialist who can help track down specific titles.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item" data-category="orders">
+            <div class="faq-question">
+              <h3>Do you ship books internationally?</h3>
+              <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Yes, we ship to most countries worldwide. International shipping rates vary based on weight and destination. Please contact us for a shipping quote before placing an international order. Delivery typically takes 7-14 business days, depending on the destination country's customs processing.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item" data-category="events">
+            <div class="faq-question">
+              <h3>How can I find out about upcoming events?</h3>
+              <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>We announce all our events on our website's Events page, our monthly newsletter, and our social media channels. You can also sign up for event-specific notifications by joining our Events mailing list. Most of our events are free, but some special events may require ticket purchase or RSVP.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item" data-category="events">
+            <div class="faq-question">
+              <h3>Can I host a book club or private event at Literary Haven?</h3>
+              <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Yes! We have a dedicated event space available for book clubs, reading groups, and private literary events. The space can accommodate up to 30 people and includes audiovisual equipment. Contact our Events Manager at events@literaryhaven.com to inquire about availability and rates.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item" data-category="membership">
+            <div class="faq-question">
+              <h3>What benefits do Literary Haven members receive?</h3>
+              <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Our members enjoy a 10% discount on all purchases, advance notice of new arrivals and events, quarterly members-only events, and a free birthday book (up to $20 value). Membership costs $50 annually, and all proceeds support our community literacy programs.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item" data-category="membership">
+            <div class="faq-question">
+              <h3>How do I become a member?</h3>
+              <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>You can sign up for membership in-store or on our website. Simply fill out the membership form and pay the annual fee. Your membership card will be available immediately if you join in-store, or we'll mail it to you within 5 business days if you join online.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item" data-category="general">
+            <div class="faq-question">
+              <h3>Do you buy used books?</h3>
+              <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>We selectively purchase used books in excellent condition. We're particularly interested in literary fiction, regional history, collectible classics, and specialized non-fiction. Please bring your books during our buying hours (Tuesday-Thursday, 11am-4pm) or email us photos and a list of titles you'd like to sell.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item" data-category="general">
+            <div class="faq-question">
+              <h3>Are gift cards available?</h3>
+              <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Yes, gift cards are available in any amount from $10 to $500. They can be purchased in-store or online and never expire. Digital gift cards can be emailed directly to the recipient with a personalized message.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="faq-not-found" id="faq-not-found">
+          <p>We couldn't find any questions matching your search.</p>
+          <p>Please try different keywords or <a href="contact.html">contact us</a> directly with your question.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Additional Help Section -->
+    <section class="additional-help">
+      <div class="container">
+        <h2>Couldn't Find Your Answer?</h2>
+        <p>We're here to help. Reach out to us through any of these channels:</p>
+        
+        <div class="help-options">
+          <div class="help-option">
+            <div class="help-icon">📞</div>
+            <h3>Call Us</h3>
+            <p>(555) 123-4567</p>
+            <p>Monday-Friday: 9am-6pm</p>
+          </div>
+          
+          <div class="help-option">
+            <div class="help-icon">✉️</div>
+            <h3>Email Us</h3>
+            <p>support@literaryhaven.com</p>
+            <p>We respond within 24 hours</p>
+          </div>
+          
+          <div class="help-option">
+            <div class="help-icon">💬</div>
+            <h3>Visit Us</h3>
+            <p>Talk to our knowledgeable staff</p>
+            <p>We're happy to assist in person</p>
+          </div>
+        </div>
+        
+        <div class="help-cta">
+          <a href="contact.html" class="btn btn-primary">Contact Us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h3>Literary Haven</h3>
+          <p>Your journey through the world of books</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Categories</h4>
+            <ul>
+              <li><a href="#">Fiction</a></li>
+              <li><a href="#">Non-Fiction</a></li>
+              <li><a href="#">Children's Books</a></li>
+              <li><a href="#">Classics</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Connect</h4>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Goodreads</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 MD TAHAMED CHOWDHURY. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
